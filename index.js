@@ -9,9 +9,9 @@ function map(arr,fun){
 }
 
 function reduce(arr,fun){
- let 
+ let result=0
  for(let ele of arr){
-   arr2.push(fun(ele))
+   result+=fun(ele)
  }
- return arr2
+ return result
 }
