@@ -10,5 +10,3 @@ function toNegative(arr){
     arr2.push(ele*-1)
   }
 }
-
-map(toNegative)
