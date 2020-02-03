@@ -14,7 +14,7 @@ function reduce(arr,fun, start=0){
       result = true;
     }
   for(let a of arr){
-   result=fun(a,start)
+   result=fun(result,a)
  }
  return result
 }
