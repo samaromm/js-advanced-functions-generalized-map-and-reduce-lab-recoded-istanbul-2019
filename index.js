@@ -2,7 +2,7 @@
 
 function map(arr,fun){
  let arr2=[]
- for(let ele in arr){
+ for(let ele of arr){
    arr2.push(fun(arr))
  }
  return arr2
