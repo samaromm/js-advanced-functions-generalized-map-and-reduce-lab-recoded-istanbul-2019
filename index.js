@@ -1,7 +1,7 @@
 // Add your functions here
 
 function map(arr,fun){
- return fun(arr)
+ 
 }
 
 /*function toNegative(arr){
