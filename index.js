@@ -9,7 +9,7 @@ function map(arr,fun){
 }
 
 function reduce(arr,fun, start=0){
-  let result
+  let result=start
   if (typeof fun(true, true) == 'boolean') {
       result = true;
     }
