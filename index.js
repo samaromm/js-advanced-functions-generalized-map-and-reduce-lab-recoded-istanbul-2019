@@ -11,7 +11,7 @@ function map(arr,fun){
 function reduce(arr,fun, start=0){
  let result=start
  for(let ele of arr){
-   result+=parseInt(fun(ele))
+   result=fun(ele)
  }
  return result
 }
