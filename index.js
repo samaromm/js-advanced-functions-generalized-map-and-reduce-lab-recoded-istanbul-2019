@@ -9,8 +9,11 @@ function map(arr,fun){
 }
 
 function reduce(arr,fun, start=0){
- let result=start
- for(let a of arr){
+  let result
+  if (typeof fun(true, true) == 'boolean') {
+      result = true;
+    }
+  for(let a of arr){
    result=fun(a,start)
  }
  return result
