@@ -8,8 +8,8 @@ function map(arr,fun){
  return arr2
 }
 
-function reduce(arr,fun){
- let result=0
+function reduce(arr,fun, start=0){
+ let result=start
  for(let ele of arr){
    result+=parseInt(fun(ele))
  }
