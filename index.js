@@ -10,6 +10,8 @@ function map(arr,fun){
 
 function reduce(arr,fun, start=0){
  let result=start
- result+=fun(arr)
+ for(let a of arr){
+ result+=fun(a,)
+ }
  return result
 }
