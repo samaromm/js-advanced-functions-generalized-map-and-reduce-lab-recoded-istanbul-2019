@@ -11,7 +11,7 @@ function map(arr,fun){
 function reduce(arr,fun, start=0){
  let result=start
  for(let a of arr){
-   result=fun(start,a)
+   result=fun(a,start)
  }
  return result
 }
